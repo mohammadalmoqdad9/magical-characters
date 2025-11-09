@@ -1,0 +1,85 @@
+
+/* Font (You can download HARRYP__.TTF and import it locally) */
+@font-face {
+  font-family: "HarryP";
+  src: url("../fonts/HARRYP__.TTF");
+}
+
+body {
+  font-family: "HarryP", Arial, sans-serif;
+  background-color: #0e092a;
+  color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #2c1a67;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 24px;
+  color: #f1c40f;
+}
+
+nav select {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+}
+
+/* Main character container */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+/* Character cards */
+.character-card {
+  background-color: #1b1044;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.character-card:hover {
+  transform: scale(1.05);
+  background-color: #3d2a85;
+}
+
+.character-card img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.character-card h2 {
+  font-size: 18px;
+  color: #f1c40f;
+  margin: 10px 0 5px 0;
+}
+
+.character-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #2c1a67;
+  color: #f9f9f9;
+}
