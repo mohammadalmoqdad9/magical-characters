@@ -36,3 +36,7 @@ Developer
 
 Developed by Mohammad Almoqdad
  (Magical Characters project)
+
+##  Live Demo
+You can view the live website here:
+[https://your-username.github.io/magical-characters/](https://mohammadalmoqdad9.github.io/magical-characters/)
