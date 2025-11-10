@@ -16,8 +16,6 @@ This web app allows users to:
 	•	Replace missing images with a default “Image Not Found” placeholder.
 	•	Explore a simple and mobile-friendly interface styled with Flexbox and a Harry Potter-themed font.
 
-
-
 Technologies Used
 	•	HTML5
 	•	CSS3 (Flexbox)
